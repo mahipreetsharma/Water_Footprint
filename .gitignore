@@ -1,0 +1,24 @@
+# Ignore generated files
+venv/
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+# Ignore large data/model files if they exist locally
+# data/raw_images/
+# data/labels/
+# model/best_weights.pt
+
+# Optional: Ignore IDE settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local run output if needed
+output/
+results/
